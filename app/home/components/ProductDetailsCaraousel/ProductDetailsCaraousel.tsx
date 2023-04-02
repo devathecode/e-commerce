@@ -11,6 +11,7 @@ const ProductDetailsCaraousel = () => {
             <div className="col-span-12 md:col-span-1 flex flex-row md:flex-col gap-2 order-last md:order-first overflow-x-scroll max-w-screen">
                 {imageArr.map((item, index) =>{
                     return <Image key={index}
+                                  priority={true}
                                   height="70"
                                   width="100"
                                   alt="slides"
@@ -20,7 +21,7 @@ const ProductDetailsCaraousel = () => {
                 })}
             </div>
             <div className="col-span-12 md:col-span-11 md:order-last order-first">
-                <Image key={1} height="1200" width="1400" alt="slides" src={`/${imageArr[selected]}.png`} className="w-fit md:w-[520px] h-auto md:h-[600px] rounded-lg"/>
+                <Image key={1} priority={true} height="1200" width="1400" alt="slides" src={`/${imageArr[selected]}.png`} className="w-fit md:w-[520px] h-auto md:h-[600px] rounded-lg"/>
             </div>
         </div>
     );

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820e3699-764c-49b8-912d-ff9728d5dc07" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/app/core/components/HeroBanner/HeroBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/components/HeroBanner/HeroBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/components/ProductDetailsCaraousel/ProductDetailsCaraousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/components/ProductDetailsCaraousel/ProductDetailsCaraousel.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <workItem from="1680282951750" duration="2333000" />
       <workItem from="1680285290834" duration="37000" />
       <workItem from="1680285336132" duration="9970000" />
-      <workItem from="1680382213644" duration="13656000" />
+      <workItem from="1680382213644" duration="14003000" />
     </task>
     <servers />
   </component>
