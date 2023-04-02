@@ -1,0 +1,93 @@
+import React, {useEffect, useState} from 'react';
+import Wrapper from "@/app/core/components/Wrapper/Wrapper";
+import Image from "next/image";
+import Link from "next/link";
+import Menu from "@/app/core/components/Header/Menu/Menu";
+import Menumobile from "@/app/core/components/Header/MenuMobile/Menumobile";
+import {BiMenuAltRight} from "react-icons/bi";
+import {VscChromeClose} from "react-icons/vsc";
+import {BsCart} from "react-icons/bs";
+import {IoMdHeartEmpty} from "react-icons/io";
+
+
+const Header = () => {
+    const [mobileMenu, setMobileMenu] = useState(false);
+    const [showCatMenu, setShowCatMenu] = useState(false);
+    const [show, setShow] = useState("translate-y-0");
+    const [lastScrollY, setLastScrollY] = useState(0);
+
+    const controlNavBar = () =>{
+        if(window.scrollY > 200){
+            if(window.scrollY > lastScrollY && !mobileMenu){
+                setShow('-translate-y-[80px]');
+            }
+            else{
+                setShow('shadow-lg');
+            }
+        }
+        else{
+            setShow("translate-y-0")
+        }
+        setLastScrollY(window.scrollY);
+    }
+
+    useEffect(() =>{
+        window.addEventListener("scroll", controlNavBar);
+        return () =>{
+            window.removeEventListener("scroll", controlNavBar)
+        }
+    }, [lastScrollY]);
+
+    return (
+        <header className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}>
+            <Wrapper className="flex justify-between h-[60px] items-center">
+                <Link href="/home">
+                    <Image priority={true} src="/logo.svg" width="100" height="100" className="w-[40px] md:w-[60px]" alt="s"/>
+                </Link>
+                <Menu showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu}/>
+                {mobileMenu && <Menumobile showCatMenu={showCatMenu} setShowCatMenu={setShowCatMenu} setMobileMenu={setMobileMenu}/>}
+                <div className="flex items-center gap-2 text-black">
+                    {/*Icon start*/}
+                    <div
+                        className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative">
+                        <IoMdHeartEmpty className="text-[19px] md:text-[24px]"/>
+                        <div className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px]
+                                        rounded-full bg-red-600 absolute top-1 left-5 md:left-7 text-white text-[10px] md:text-[12px] flex
+                                        justify-center items-center px-[2px] md:p-[5px]">
+                            51
+                        </div>
+                    </div>
+                    {/*  Icon end*/}
+
+                    {/*Icon start*/}
+                    <div
+                        className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative">
+                        <BsCart className="text-[15px] md:text-[20px]"/>
+                        <div className="h-[14px] md:h-[18px] min-w-[14px] md:min-w-[18px]
+                                        rounded-full bg-red-600 absolute top-1 left-5 md:left-7 text-white text-[10px] md:text-[12px] flex
+                                        justify-center items-center px-[2px] md:p-[5px]">5
+                        </div>
+                    </div>
+                    {/*  Icon end*/}
+
+                    {/* Mobile icon start */}
+                    <div
+                        className="w-8 md:w-12 h-8 md:h-12 rounded-full flex justify-center items-center hover:bg-black/[0.05] cursor-pointer relative -mr-2">
+                        {mobileMenu ? (
+                            <VscChromeClose className="text-[16px]" onClick={() => {
+                                setMobileMenu(false)
+                            }}/>
+                        ) : (
+                            <BiMenuAltRight className="text-[20px]" onClick={() => {
+                                setMobileMenu(true)
+                            }}/>
+                        )}
+                    </div>
+                    {/* Mobile icon end*/}
+                </div>
+            </Wrapper>
+        </header>
+    );
+};
+
+export default Header;
