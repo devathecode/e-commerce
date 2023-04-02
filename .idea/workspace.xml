@@ -5,55 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820e3699-764c-49b8-912d-ff9728d5dc07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/core/components/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/components/Header/Menu/Menu.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/components/Header/MenuMobile/Menumobile.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/components/HeroBanner/HeroBanner.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/core/components/Wrapper/Wrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/about/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/category/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/category/product/[slug]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/components/ProductCard/ProductCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/components/ProductDetailsCaraousel/ProductDetailsCaraousel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/components/cityautocomplete/Cityautocomplete.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/components/exploreour/exploreour.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/contact/head.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/contact/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/head.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/laoding.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/properties/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/empty-cart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/p1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/p2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/p3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/p4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/p5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/p6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/p7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/product-1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slide-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slide-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slide-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/spinner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/start-black.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/start-black2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/start-gold.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/start-gray.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/next.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/thirteen.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/vercel.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/components/HeroBanner/HeroBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/components/HeroBanner/HeroBanner.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +58,7 @@
       <workItem from="1680282951750" duration="2333000" />
       <workItem from="1680285290834" duration="37000" />
       <workItem from="1680285336132" duration="9970000" />
-      <workItem from="1680382213644" duration="13137000" />
+      <workItem from="1680382213644" duration="13543000" />
     </task>
     <servers />
   </component>
