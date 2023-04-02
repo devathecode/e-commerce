@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const items = [
     <div key={1}>
-        <img height="1600" width="1800" alt="slides" src="/slide-1.png" className="aspect-[16/10] md:aspect-auto object-cover"/>
+        <Image priority={true} height="1600" width="1800" alt="slides" src="/slide-1.png" className="aspect-[16/10] md:aspect-auto object-cover"/>
         <div className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] bg-white absolute
                         bottom-[25px] md:bottom-[75px] left-0 text-black/[0.9]
                         text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90">
@@ -15,7 +15,7 @@ const items = [
         </div>
     </div>,
     <div key={2}>
-        <img height="1600" width="1800" alt="slides" src="/slide-2.png" className="aspect-[16/10] md:aspect-auto object-cover"/>
+        <Image priority={true} height="1600" width="1800" alt="slides" src="/slide-2.png" className="aspect-[16/10] md:aspect-auto object-cover"/>
         <div className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] bg-white absolute
                         bottom-[25px] md:bottom-[75px] left-0 text-black/[0.9]
                         text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90">
@@ -23,7 +23,7 @@ const items = [
         </div>
     </div>,
     <div key={3}>
-        <img height="1600" width="1800" alt="slides" src="/slide-3.png" className="aspect-[16/10] md:aspect-auto object-cover"/>
+        <Image priority={true} height="1600" width="1800" alt="slides" src="/slide-3.png" className="aspect-[16/10] md:aspect-auto object-cover"/>
         <div className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] bg-white absolute
                         bottom-[25px] md:bottom-[75px] left-0 text-black/[0.9]
                         text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90">
