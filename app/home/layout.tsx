@@ -11,12 +11,10 @@ export default function HomeLayout({
     children: React.ReactNode
 }) {
     return (
-        <div className="">
+        <>
             <Header/>
-            <div className="">
-                {children}
-            </div>
+            {children}
             <Footer/>
-        </div>
+        </>
     )
 }

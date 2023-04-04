@@ -12,15 +12,15 @@ const Page = ({params}: { params: { slug: string }}) => {
                 </div>
                 {/* Product grid start*/}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-14 px-5 md:px-0">
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
-                    <ProductCard/>
+                    <ProductCard key={1}/>
+                    <ProductCard key={2}/>
+                    <ProductCard key={3}/>
+                    <ProductCard key={4}/>
+                    <ProductCard key={5}/>
+                    <ProductCard key={6}/>
+                    <ProductCard key={7}/>
+                    <ProductCard key={8}/>
+                    <ProductCard key={9}/>
                 </div>
                 {/* Product grid end*/}
             </Wrapper>

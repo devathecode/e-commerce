@@ -108,17 +108,3 @@
 .markdown ul li {
     margin: 10px 0;
 }
-
-.alice-carousel__prev-btn{
-    position: absolute;
-    right: 0.02rem;
-    bottom: 0;
-    width: 2rem !important;
-}
-
-.alice-carousel__next-btn{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 2rem !important;
-}

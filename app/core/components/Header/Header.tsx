@@ -40,7 +40,7 @@ const Header = () => {
 
     return (
         <header className={`w-full h-[50px] md:h-[80px] bg-white flex items-center justify-between z-20 sticky top-0 transition-transform duration-300 ${show}`}>
-            <Wrapper className="flex justify-between h-[60px] items-center">
+            <Wrapper classes="flex justify-between h-[60px] items-center">
                 <Link href="/home">
                     <Image priority={true} src="/logo.svg" width="100" height="100" className="w-[40px] md:w-[60px]" alt="s"/>
                 </Link>

@@ -5,7 +5,7 @@ import Wrapper from "@/app/core/components/Wrapper/Wrapper";
 const Footer = () => {
     return (
         <footer className="bg-black text-white pt-14 pb-3">
-            <Wrapper className="flex justify-between flex-col md:flex-row gap-[50px] md:gap-0">
+            <Wrapper classes="flex justify-between flex-col md:flex-row gap-[50px] md:gap-0">
                 {/* LEFT START */}
                 <div className="flex gap-[50px] md:gap-[75px] lg:gap-[100px] flex-col md:flex-row">
                     {/* MENU START */}
@@ -94,7 +94,7 @@ const Footer = () => {
                 </div>
                 {/* RIGHT END */}
             </Wrapper>
-            <Wrapper className="flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0">
+            <Wrapper classes="flex justify-between mt-10 flex-col md:flex-row gap-[10px] md:gap-0">
                 {/* LEFT START */}
                 <div className="text-[12px] text-white/[0.5] hover:text-white cursor-pointer text-center md:text-left">
                     © 2023 Nike, Inc. All Rights Reserved

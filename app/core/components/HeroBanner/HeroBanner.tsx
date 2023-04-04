@@ -1,9 +1,11 @@
 "use client"
 import React, {useRef} from 'react';
 import {BiArrowBack} from "react-icons/bi";
-import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from "next/image";
+import dynamic from "next/dynamic";
+
+const AliceCarousel = dynamic(() => import('react-alice-carousel'), { ssr: false });
 
 const items = [
     <div key={1}>
@@ -36,6 +38,7 @@ const HeroBanner = (props: any) => {
     return (
         <div className="relative text-white text-[20px] w-full max-w-[1360px] mx-auto">
             <AliceCarousel
+                key="hero-banner"
                 mouseTracking
                 autoPlay={true}
                 disableDotsControls={true}
