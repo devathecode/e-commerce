@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820e3699-764c-49b8-912d-ff9728d5dc07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/home/components/RelatedProjectCarousel/RelatedProjectCarousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/components/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/core/components/HeroBanner/HeroBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/components/HeroBanner/HeroBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/components/Wrapper/Wrapper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/components/Wrapper/Wrapper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/category/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/category/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/category/product/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/category/product/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/components/ProductCard/ProductCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/components/ProductCard/ProductCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/components/ProductDetailsCaraousel/ProductDetailsCaraousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/components/ProductDetailsCaraousel/ProductDetailsCaraousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/home/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +24,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/devanshu/Desktop/Projects/React/Ecommerce/Frontend/fe-shoe-store/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/devanshu/Desktop/Projects/React/Ecommerce/Frontend/fe-shoe-store/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/devanshu/Desktop/Projects/React/Ecommerce/Frontend/fe-shoe-store/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/devanshu/Desktop/Projects/React/Ecommerce/Frontend/fe-shoe-store/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />

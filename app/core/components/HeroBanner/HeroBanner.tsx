@@ -44,14 +44,14 @@ const HeroBanner = (props: any) => {
                 disableDotsControls={true}
                 disableButtonsControls={false}
                 renderPrevButton={({ isDisabled }) => {
-                    return <div className="absolute right-[31px] md:right-[50px] bottom-0 w-[30px] md:w-[50px] h-[30px]
+                    return <div className="absolute right-[31px] md:right-[51px] bottom-[1.6rem] w-[30px] md:w-[50px] h-[30px]
                                     md:h-[50px] bg-black z-10 flex items-center justify-center
                                     cursor-pointer hover:opacity-90">
                                 <BiArrowBack className="text-sm md:text-lg" />
                             </div>
                 }}
                 renderNextButton={({ isDisabled }) => {
-                    return <div className="absolute right-0 bottom-0 w-[30px] md:w-[50px] h-[30px]
+                    return <div className="absolute right-0 bottom-[1.6rem] w-[30px] md:w-[50px] h-[30px]
                                     md:h-[50px] bg-black z-10 flex items-center justify-center
                                     cursor-pointer hover:opacity-90">
                                 <BiArrowBack className="rotate-180 text-sm md:text-lg" />
