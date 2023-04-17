@@ -1,8 +1,9 @@
+import React from "react";
 
 const Head = () => {
     return (
         <>
-            <title>About Us | SG Signature Group</title>
+            <title>About Us | Nike Shoes</title>
             <meta name="description" content="Let's talk about everything"/>
         </>
     );
