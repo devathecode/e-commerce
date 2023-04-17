@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820e3699-764c-49b8-912d-ff9728d5dc07" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/home/about/head.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/cart/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/components/cartItem/CartItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/failed/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/home/success/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/utils.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/core/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/core/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/home/about/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +65,7 @@
       <workItem from="1680285290834" duration="37000" />
       <workItem from="1680285336132" duration="9970000" />
       <workItem from="1680382213644" duration="23409000" />
+      <workItem from="1681753628155" duration="310000" />
     </task>
     <servers />
   </component>
